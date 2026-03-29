@@ -4,62 +4,63 @@
 <head>
   <title>devfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" href="img/small_banner.jpg" type="image/jpeg">
   <link rel="stylesheet" href="css/main.bundle.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
 
-<body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+<body style="background: url('img/background.jpg') center/cover fixed no-repeat;">
+  <nav class="navbar" style="background: #ffffff;" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+        <a href="https://github.com/bhavikab04" class="icon is-large" style="color: #1a1a1a;">
           <i class="fab fa-2x fa-github"></i>
         </a>
       </div>
       <div class="navbar-item is-hidden-desktop">
-        <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-          <i class="fas fa-2x fa-globe"></i>
+        <a href="https://www.linkedin.com/in/bhavika-baburaj/" class="icon is-large" style="color: #0a66c2;">
+          <i class="fab fa-2x fa-linkedin-in"></i>
         </a>
       </div>
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
+          <a href="https://github.com/bhavikab04" class="icon is-large" style="color: #1a1a1a;">
             <i class="fab fa-2x fa-github"></i>
           </a>
         </div>
         <div class="navbar-item">
-          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-            <i class="fas fa-2x fa-globe"></i>
+          <a href="https://www.linkedin.com/in/bhavika-baburaj/" class="icon is-large" style="color: #0a66c2;">
+            <i class="fab fa-2x fa-linkedin-in"></i>
           </a>
         </div>
       </div>
     </div>
   </nav>
 
-  <section class="hero is-primary">
-    <div class="hero-body">
+  <section class="hero is-primary" style="background: linear-gradient(135deg, rgba(47, 72, 88, 0.5) 0%, rgba(63, 92, 110, 0.5) 100%), url('img/small_banner.jpg') center/cover no-repeat; padding: 4rem 0;">
+    <div class="hero-body" style="padding: 2rem 0;">
       <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me-big.jpg">
-            </figure>
-          </div>
+        <div style="display: flex; justify-content: center; margin-bottom: 0.5rem;">
+          <figure class="image" style="width: 160px; height: 160px; border-radius: 50%; overflow: hidden; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);">
+            <img src="img/bhavika.jpg" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </figure>
         </div>
         <div class="columns has-text-centered">
           <div class="column">
-            <h1 class="title is-1">
-              Mark Macneil
+            <h1 class="title is-1" style="color: #f8fafc; margin-top: 0.75rem; margin-bottom: 1rem;">
+              Bhavika Baburaj
             </h1>
-            <h2 class="subtitle">
-              FullStack .NET Dev, Halifax, NS
+            <h2 class="subtitle" style="color: #a7f3d0; margin-bottom: 1.25rem; font-weight: 500;">
+              B.E. in Computer Science and M.Sc. in Physics | 3D Vision, Multimodal Learning, LLM/VLMs, Deep Learning architectures
             </h2>
+            <p style="color: #e0e7ff; font-size: 1.1rem; margin-bottom: 2rem; line-height: 1.6;">
+              Undergrad student at BITS Pilani Hyderabad Campus | Research in AI-assisted CAD, text-to-3D, geometric deep learning, and computer vision
+            </p>
             <p>
-              <a href="docs/resume.txt" class="icon has-text-light">
-                <i class="fas fa-file-word"></i> <strong>Resume</strong>
+              <a href="docs/Bhavika_Baburaj_CV.pdf" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background-color: #a7f3d0; color: #1f2937; border-radius: 0.375rem; text-decoration: none; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(167, 243, 208, 0.3);">
+                <i class="fas fa-file-pdf"></i> <strong>Resume</strong>
               </a>
             </p>
           </div>
@@ -70,47 +71,119 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">About Me</h1>
-      <hr />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+      <h1 class="title" style="color: #2f4858;">About Me</h1>
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <p>I'm a third-year dual-degree student at <strong>BITS Pilani Hyderabad Campus</strong> pursuing a B.E. in Computer Science and M.Sc. in Physics. My research focuses on 3D vision, multimodal learning, sequence-to-sequence modeling, and text-to-3D systems, with a passion for novel neural architectures and transformer-based models.</p>
+            <p>I have hands-on experience with PyTorch, Open3D, distributed training, and multi-GPU fine-tuning in HPC environments. I'm particularly interested in geometric deep learning, 3D representations, and computer vision applications in robotics, and I'm actively seeking research internships and ML roles to further develop my expertise in large-scale model training.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title" style="color: #2f4858;">Skills</h1>
+      
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <p><strong>Languages</strong></p>
+            <div class="tags mb-4">
+              <span class="tag">Python</span>
+              <span class="tag">C</span>
+              <span class="tag">Java</span>
+            </div>
+
+            <p><strong>Frameworks & Platforms</strong></p>
+            <div class="tags mb-4">
+              <span class="tag">PyTorch</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">DeepSpeed</span>
+              <span class="tag">MS-Swift</span>
+              <span class="tag">LMDeploy</span>
+              <span class="tag">OpenCV</span>
+            </div>
+
+            <p><strong>Libraries & Tools</strong></p>
+            <div class="tags mb-4">
+              <span class="tag">Open3D</span>
+              <span class="tag">librosa</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">Trafilatura</span>
+              <span class="tag">Git</span>
+              <span class="tag">JSON</span>
+            </div>
+
+            <p><strong>ML Specializations</strong></p>
+            <div class="tags mb-4">
+              <span class="tag">LLMs</span>
+              <span class="tag">VLMs</span>
+              <span class="tag">Multimodal Learning</span>
+              <span class="tag">Sequence-to-Sequence Models</span>
+              <span class="tag">Transformer Architectures</span>
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">Generative Modeling</span>
+              <span class="tag">3D Reconstruction</span>
+            </div>
+
+            <p><strong>Systems & Infrastructure</strong></p>
+            <div class="tags mb-4">
+              <span class="tag">HPC</span>
+              <span class="tag">Multi-GPU Training</span>
+              <span class="tag">Distributed Training</span>
+            </div>
+
+            <p><strong>Models Worked With</strong></p>
+            <div class="tags">
+              <span class="tag">InternVL</span>
+              <span class="tag">Qwen</span>
+              <span class="tag">LLaMA</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">Phi-4</span>
+              <span class="tag">DeepSeek</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="section">
     <div class="container">
-      <h1 class="title">Experience</h1>
-      <hr />
+      <h1 class="title" style="color: #2f4858;">Experience</h1>
       <div class="card">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="img/dunder-mifflin-logo.png" alt="Placeholder image">
+                <img src="img/bits.png" alt="BITS Pilani">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">January 2018</time> - <time
-                  datetime="2019-9">Sepemter 2019</time> </p>
+              <p class="title is-4">Undergraduate Research Assistant</p>
+              <p class="subtitle is-6">3D Vision Group, BITS Pilani Hyderabad Campus - <time datetime="2024-10">October 2024</time> - <time
+                  datetime="2025-12">Present</time></p>
             </div>
           </div>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+            <p><strong>Advisor:</strong> Dr. S.K. Aziz Ali</p>
             <ul>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
+              <li>Conducted research on 3D reconstruction, AI-assisted CAD modeling, sequence-to-sequence learning, multimodal models, and text-to-3D generation.</li>
+              <li>Built and improved text-to-3D pipelines involving B-Rep/CAD representations, annotation generation, multimodal fine-tuning, and geometric learning on ABC and CC3D datasets.</li>
+              <li>Worked extensively with PyTorch, Open3D, Hugging Face, MS-Swift, DeepSpeed, and LMDeploy across models including InternVL, Qwen, LLaMA, and Gemini.</li>
+              <li>Gained strong experience with HPC systems, multi-GPU training, distributed experimentation, large-scale inference, and prompt engineering for LLM/VLM workflows.</li>
             </ul>
             <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
+              <span class="tag">PyTorch</span>
+              <span class="tag">Open3D</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">DeepSpeed</span>
+              <span class="tag">LLM/VLM</span>
+              <span class="tag">3D Vision</span>
+              <span class="tag">HPC</span>
+              <span class="tag">Multi-GPU</span>
             </div>
           </div>
         </div>
@@ -120,29 +193,28 @@
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="img/pied-piper-logo.png" alt="Placeholder image">
+                <img src="img/cloud_Defense.jpeg" alt="CloudDefense.AI">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">August 2017</time> - <time
-                  datetime="2017-9">January 2018</time></p>
+              <p class="title is-4">Software Intern</p>
+              <p class="subtitle is-6">CloudDefense.AI - <time datetime="2025-5">May 2025</time> - <time
+                  datetime="2025-7">July 2025</time></p>
             </div>
           </div>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
+            <p><strong>Location:</strong> Remote, Palo Alto, California</p>
             <ul>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
+              <li>Implemented Playwright and Trafilatura workflows for website data extraction and LinkedIn profile scraping.</li>
+              <li>Benchmarked LLMs (Qwen2.5-0.5B/3B, Zephyr-7B-β, Llama-3-7B, Phi-4, DeepSeek-7B); selected Phi-4 for superior instruction-following and JSON consistency on T4 GPU.</li>
+              <li>Integrated ICP generation into a Chrome extension through a local API for seamless user access.</li>
             </ul>
             <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">LLM Benchmarking</span>
+              <span class="tag">Python</span>
+              <span class="tag">Chrome Extension</span>
+              <span class="tag">API Integration</span>
             </div>
           </div>
         </div>
@@ -152,62 +224,66 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
+      <h1 class="title" style="color: #2f4858;">Academic Experience</h1>
+      <div class="card">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-96x96">
+                <img src="img/iiit_hyd.jpg" alt="IIIT Hyderabad">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">3D Vision Summer School</p>
+              <p class="subtitle is-6">IIIT Hyderabad : Selected Participant</p>
+            </div>
+          </div>
+          <div class="content" style="margin-top: -1.5rem;">
+            <ul>
+              <li>Attended week-long in-person program covering lectures and hands-on implementations in modern 3D vision and geometric deep learning.</li>
+              <li>Worked with point cloud and mesh-based learning methods including PointNet, MeshCNN, and PIFu.</li>
+              <li>Covered camera modeling, camera calibration, geometry processing, NeRF, Gaussian Splatting, 3D animation synthesis, 2D/3D diffusion models, and text-to-3D systems.</li>
+            </ul>
+            <div class="tags" style="margin-top: 1rem;">
+              <span class="tag">3D Vision</span>
+              <span class="tag">Point Clouds</span>
+              <span class="tag">NeRF</span>
+              <span class="tag">Gaussian Splatting</span>
+              <span class="tag">Geometric Deep Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title" style="color: #2f4858;">Projects</h1>
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title is-5" style="font-family: 'Lato', sans-serif; font-weight: 700;">Vocal Source Separation from Musical Mixtures</p>
                 <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/project-1-cover.png">
+                  <img class="modal-trigger" data-target="project-1-modal" src="img/vocal_stem_proj.png">
                 </figure>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title is-5" style="font-family: 'Lato', sans-serif; font-weight: 700;">Propositional Logic Parsing and CNF Analysis Pipeline</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/project-2-cover.png">
+                  <img class="modal-trigger" data-target="project-2-modal" src="img/logic.png">
                 </figure>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">Project title</p>
+                <p class="title is-5" style="font-family: 'Lato', sans-serif; font-weight: 700;">ICP Generator using Web & LinkedIn Scraping + LLMs</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/project-3-cover.png">
-                </figure>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-4-modal" src="img/project-4-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-5-modal" src="img/project-5-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-6-modal" src="img/project-6-cover.png">
+                  <img class="modal-trigger" data-target="project-3-modal" src="img/icp.png">
                 </figure>
               </article>
             </div>
@@ -219,38 +295,82 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Education / Training</h1>
+      <h1 class="title" style="color: #2f4858;">Publications</h1>
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-5">A2Z-10M+: Geometric Deep Learning with A-to-Z BRep Annotations for AI-Assisted CAD Modeling and Reverse Engineering</p>
+            <p class="subtitle is-6"><strong>CVPR 2026</strong> | <strong>Second Author</strong></p>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">A large-scale dataset and benchmarking framework for geometric deep learning on CAD models with comprehensive B-Rep annotations, enabling advances in AI-assisted design and reverse engineering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title" style="color: #2f4858;">Education</h1>
       <hr />
       <div class="card">
         <div class="card-content">
           <div class="content">
-            <p class="title is-4">School Name</p>
-            <p class="subtitle is-6">Program/Course - <time datetime="2016-9">September 2016</time> - <time
-                datetime="2019-9">Sepemter 2019</time></p>
+            <p class="title is-4">BITS Pilani, Hyderabad Campus</p>
+            <p class="subtitle is-6">B.E. in Computer Science + M.Sc. in Physics - <time datetime="2023-8">August 2023</time> - <time
+                datetime="2028-5">May 2028</time></p>
           </div>
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            </ul>
+            <strong>CGPA: 9.18/10</strong>
+            <p>Dual-degree program combining engineering fundamentals with advanced physics research, focusing on 3D vision, multimodal learning, and computational methods.</p>
+            <p style="margin-top: 1rem;"><strong>Relevant Coursework:</strong></p>
+            <div class="tags">
+              <span class="tag">Data Structures and Algorithms</span>
+              <span class="tag">Logic</span>
+              <span class="tag">Database Management Systems</span>
+              <span class="tag">Object-Oriented Programming</span>
+              <span class="tag">Discrete Mathematics</span>
+              <span class="tag">Probability and Statistics</span>
+              <span class="tag">Multivariable Calculus</span>
+            </div>
           </div>
         </div>
       </div>
       <div class="card card-gap">
         <div class="card-content">
           <div class="content">
-            <p class="title is-4">School Name</p>
-            <p class="subtitle is-6">Program/Course - <time datetime="2015-9">September 2014</time> - <time
-                datetime="2015-9">Sepemter 2015</time></p>
+            <p class="title is-4">HMR International School, Bengaluru</p>
+            <p class="subtitle is-6">Class XII (CBSE) - <time datetime="2022-3">March 2022</time></p>
           </div>
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
+            <strong>Score: 94.8%</strong>
+          </div>
+        </div>
+      </div>
+      <div class="card card-gap">
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">CMR National Public School, Bengaluru</p>
+            <p class="subtitle is-6">Class X (CBSE) - <time datetime="2020-3">March 2020</time></p>
+          </div>
+          <div class="content">
+            <strong>Score: 97%</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title" style="color: #2f4858;">Achievements</h1>
+      <hr />
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
             <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li><strong>Batch Topper in First Semester</strong>: Achieved a perfect 10.0 SGPA, ranking first in the incoming batch.</li>
+              <li><strong>Merit Scholarship Recipient</strong>: Awarded to the top 3% of students for five consecutive semesters, recognizing sustained academic excellence.</li>
+              <li><strong>ML Chair, ACM BITS Hyderabad</strong>:  Leading machine learning initiatives and fostering technical community engagement at the student chapter.</li>
             </ul>
           </div>
         </div>
@@ -260,39 +380,39 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Contact</h1>
+      <h1 class="title" style="color: #2f4858;">Contact</h1>
       <hr />
       <nav class="level">
         <div class="level-item has-text-centered">
           <div>
-            <a href="https://github.com/mmacneil" class="icon is-large">
+            <a href="https://github.com/bhavikab04" class="icon is-large" style="color: #00d9a3;">
               <i class="fab fa-2x fa-github"></i>
             </a>
-            <p class="heading"><a href="https://github.com/mmacneil">github.com/mmacneil</a></p>
+            <p class="heading"><a href="https://github.com/bhavikab04">github.com/bhavikab04</a></p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
-            <a href="https://fullstackmark.com" class="icon is-large">
-              <i class="fas fa-2x fa-globe"></i>
-            </a>
-            <p class="heading"><a href="https://fullstackmark.com">fullstackmark.com</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="mailto:markmacneil@gmail.com" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
-            </a>
-            <p class="heading"><a href="mailto:markmacneil@gmail.com">markmacneil@gmail.com</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://www.linkedin.com/in/markmacneilhfx" class="icon is-large">
+            <a href="https://www.linkedin.com/in/bhavika-baburaj/" class="icon is-large" style="color: #00d9a3;">
               <i class="fab fa-2x fa-linkedin-in"></i>
             </a>
-            <p class="heading"><a href="https://www.linkedin.com/in/markmacneilhfx">linkedin</a></p>
+            <p class="heading"><a href="https://www.linkedin.com/in/bhavika-baburaj/">LinkedIn</a></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="mailto:bhavika.baburaj@gmail.com" class="icon is-large" style="color: #00d9a3;">
+              <i class="fas fa-2x fa-envelope"></i>
+            </a>
+            <p class="heading"><a href="mailto:bhavika.baburaj@gmail.com">bhavika.baburaj@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="https://scholar.google.com/citations?hl=en&user=N2yGmzAAAAAJ" class="icon is-large" style="color: #00d9a3;">
+              <i class="fas fa-2x fa-graduation-cap"></i>
+            </a>
+            <p class="heading"><a href="https://scholar.google.com/citations?hl=en&user=N2yGmzAAAAAJ">Google Scholar</a></p>
           </div>
         </div>
       </nav>
@@ -302,39 +422,44 @@
   <!-- Modals -->
   <div id="project-1-modal" class="modal">
     <div class="modal-background"></div>
-    <div class="modal-card">
+    <div class="modal-card" style="width: 75%; max-width: 900px; margin: auto;">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Vocal Source Separation from Musical Mixtures</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
-        <div id="project-1-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+        <div id="project-1-modal-carousel" class="carousel" style="width: 100%; margin: 0 auto;">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj1_img2.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj1_img3.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj1_img4.png">
+          </figure>
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj1_img5.png">
           </figure>
         </div>
 
         <div class="content">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <p>Built a vocal isolation system trained on 80 multi-stem songs from the MoisesDB dataset. Implemented and compared two architectures: a ViT-style spectrogram model with patch embeddings and transformer encoder, and a Hybrid Spectrogram-TasNet combining BiLSTM spectrogram branch with learned-filterbank waveform branch using 2x T4 GPUs on Kaggle.</p>
+
+          <p>Also trained SVM and Random Forest baselines on MFCC features, followed by CNN and RCNN models for instrument classification. Improved spectral reconstruction quality substantially, reducing log-spectral L1 loss from 0.41 to 0.03, while analyzing phase-reconstruction limitations of magnitude-masking approaches.</p>
 
           <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">librosa</span>
+            <span class="tag">MoisesDB</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">Audio Processing</span>
           </div>
+
+          <p style="margin-top: 1.5rem;"><a href="https://www.kaggle.com/code/bhavika04/vocal-stem-separation" target="_blank" style="color: #00d9a3; text-decoration: underline;">View on Kaggle</a></p>
 
         </div>
 
@@ -347,39 +472,43 @@
 
   <div id="project-2-modal" class="modal">
     <div class="modal-background"></div>
-    <div class="modal-card">
+    <div class="modal-card" style="width: 75%; max-width: 900px; margin: auto;">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">Propositional Logic Parsing and CNF Analysis Pipeline</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
-        <div id="project-2-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+        <div id="project-2-modal-carousel" class="carousel" style="width: 100%; margin: 0 auto;">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj2_img1.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj2_img2.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj2_img3.png">
+          </figure>
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj2_img4.png">
           </figure>
         </div>
 
         <div class="content">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <p>Built a C-based propositional logic pipeline for parsing, parse-tree construction, truth-table generation, and CNF transformation. Implemented infix-to-prefix parsing and stack-based tree construction using stacks, trees, and hash tables.</p>
+
+          <p>Analyzed time and space complexity, identifying exponential bottlenecks in truth-table generation and CNF conversion. This project strengthened understanding of formal logic, compiler design principles, and data structure optimization.</p>
 
           <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
+            <span class="tag">C</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">Parsing</span>
+            <span class="tag">Algorithm Analysis</span>
+            <span class="tag">Logic</span>
           </div>
+
+          <p style="margin-top: 1.5rem;"><a href="https://github.com/bhavikab04/SAT_Solver" target="_blank" style="color: #00d9a3; text-decoration: underline;">View on GitHub</a></p>
 
         </div>
 
@@ -392,159 +521,37 @@
 
   <div id="project-3-modal" class="modal">
     <div class="modal-background"></div>
-    <div class="modal-card">
+    <div class="modal-card" style="width: 75%; max-width: 900px; margin: auto;">
       <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
+        <p class="modal-card-title">ICP Generator using Web & LinkedIn Scraping + LLMs</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <div id="project-3-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+        <div id="project-3-modal-carousel" class="carousel" style="width: 100%; margin: 0 auto;">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj3_img1.png">
           </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+          <figure class="image is-16by9 carousel-cell" style="width: 100%;">
+            <img src="img/carousel/proj3_img2.png">
           </figure>
         </div>
 
         <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
+          <p>Built an automated ICP (Ideal Customer Profile) generation pipeline that scraped public company websites and LinkedIn pages and converted extracted data into structured business profiles using LLMs. Benchmarked compact LLMs including Phi-4, DeepSeek-7B, Qwen2.5, LLaMA-3-7B, and Zephyr-7B for structured JSON generation.</p>
+          
+          <p>Deployed the final system through a Chrome extension backed by a local API, enabling seamless access to generated ICPs. This project demonstrated end-to-end LLM integration, web scraping, API design, and browser extension development.</p>
+
           <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
+            <span class="tag">Python</span>
+            <span class="tag">Playwright</span>
+            <span class="tag">Trafilatura</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">LLM Benchmarking</span>
+            <span class="tag">Chrome Extension</span>
+            <span class="tag">API</span>
           </div>
-        </div>
 
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-4-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-4-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-5-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-5-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-6-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-6-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
+          <p style="margin-top: 1.5rem;"><a href="https://github.com/bhavikab04/ICP-Generator" target="_blank" style="color: #00d9a3; text-decoration: underline;">View on GitHub</a></p>
         </div>
 
       </section>
@@ -557,8 +564,7 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
-          <i class="fab fa-github"></i> <strong>devfolio</strong></a>
+        <small>Originally based on the <a href="https://github.com/mmacneil/devfolio" target="_blank">devfolio</a> template, customized by Bhavika Baburaj</small>
       </p>
     </div>
   </footer>

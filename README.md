@@ -1,9 +1,21 @@
-# devfolio
-A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.
+# Bhavika Baburaj - Portfolio
 
-View the [demo here](https://mmacneil.github.io/devfolio/).
 
-### Desktop version
+## About This Repository
+
+This portfolio was originally based on the [devfolio](https://github.com/mmacneil/devfolio) template and has been significantly customized with:
+- Custom branding and color scheme
+- Personalized content and styling
+- Enhanced typography and visual hierarchy
+- Responsive card-based layouts
+- Custom hero section with gradient backgrounds
+
+### Original Template Credits
+- **Template**: [devfolio](https://github.com/mmacneil/devfolio) by [Mark MacNeil](https://github.com/mmacneil)
+- **Built with**: Bulma CSS, Sass, Font Awesome, and Flickity
+- **License**: MIT (See LICENSE file for details)
+
+## Desktop version
 <img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-desktop.gif" />
 
 ### Responsive version
@@ -21,6 +33,8 @@ View the [demo here](https://mmacneil.github.io/devfolio/).
  4. Open `index.html` locally in your favorite browser.
  5. Modify accordingly - styles, colors and variables can be changed in `styles.scss`.  Refer to the Bulma docs for guidance on how to quickly customize further to suit your tastes using  [color helpers](https://bulma.io/documentation/modifiers/color-helpers/) and [variables](https://bulma.io/documentation/customize/variables/).  See the [Flickity](https://github.com/metafizzy/flickity) docs if you wish to modify the carousel.
  
- ## Contact
- markmacneil@gmail.com
- 
+ ## Contact & Attribution
+
+For inquiries about this portfolio: bhavika.baburaj@gmail.com
+
+Original template by: markmacneil@gmail.com
